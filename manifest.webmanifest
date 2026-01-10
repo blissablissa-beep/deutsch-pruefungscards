@@ -2,7 +2,7 @@
   "name": "Deutsch PrüfungsCards",
   "short_name": "PrüfungsCards",
   "description": "独検一級・Goethe C1向け｜テーマ別論点・賛否・専門語彙カード集",
-  "start_url": "./index.html#/",
+  "start_url": "./#/",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0f1115",
