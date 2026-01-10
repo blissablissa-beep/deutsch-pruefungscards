@@ -112,5 +112,136 @@ window.CARDS = [
     links: [
       { label: "Umweltbundesamt", url: "https://www.umweltbundesamt.de/" }
     ]
-  }
+  },{
+  id: "ai-arbeit",
+  theme: { de: "Digitalisierung & Arbeit", ja: "デジタル化と労働" },
+  title: { de: "Künstliche Intelligenz und Beschäftigung", ja: "AIと雇用" },
+  zustand: {
+    de: "Künstliche Intelligenz übernimmt zunehmend Aufgaben in Verwaltung, Industrie und Dienstleistungssektor. Während Produktivität und Effizienz steigen, geraten bestimmte Tätigkeiten unter Druck oder verschwinden ganz. Gleichzeitig entstehen neue Berufsbilder mit hohen Qualifikationsanforderungen. Daraus ergibt sich die Frage, wie Arbeitsmärkte, Bildungssysteme und Sozialstaat auf den technologischen Wandel reagieren sollen.",
+    ja: "AIは多くの業務を代替し、生産性を高める一方で職種消失の懸念を生んでいる。高度技能職とのミスマッチが拡大し、労働・教育・社会保障の対応が問われている。"
+  },
+  issues: [
+    { de: "Welche Berufe sind besonders gefährdet?", ja: "どの職種が影響を受けやすいか" },
+    { de: "Reicht Umschulung als Antwort?", ja: "再教育は十分か" },
+    { de: "Wie verhindert man soziale Spaltung?", ja: "社会的分断をどう防ぐか" }
+  ],
+  views: {
+    pro: {
+      de: "KI kann Produktivität steigern, Arbeitskräfte entlasten und neue Tätigkeitsfelder schaffen. Richtig eingesetzt fördert sie Innovation und sichert langfristig Wettbewerbsfähigkeit. Voraussetzung sind Investitionen in Bildung und Qualifizierung.",
+      ja: "AIは生産性向上と新職種創出を通じて競争力を高めうる。前提は教育・再訓練への投資。"
+    },
+    contra: {
+      de: "Ohne ausreichende Weiterbildung drohen Jobverluste, insbesondere bei gering Qualifizierten. Einkommen könnten sich weiter polarisieren, und soziale Sicherungssysteme geraten unter Druck.",
+      ja: "再教育が不十分だと失業や格差拡大を招き、社会保障への負担が増す。"
+    },
+    compromise: {
+      de: "Eine aktive Arbeitsmarktpolitik mit lebenslangem Lernen, flankiert durch soziale Absicherung und Beteiligung der Unternehmen, kann Innovation ermöglichen und soziale Risiken begrenzen.",
+      ja: "生涯学習と社会的セーフティネットを組み合わせ、革新と安定を両立させる。"
+    }
+  },
+  redemittel: [
+    "Es handelt sich um einen tiefgreifenden Strukturwandel des Arbeitsmarktes.",
+    "Dabei stellt sich die Frage, wie man Chancen nutzt, ohne soziale Risiken zu ignorieren.",
+    "Entscheidend ist aus meiner Sicht die Kombination aus Innovation und Absicherung."
+  ]
+},
+{
+  id: "ai-kunst",
+  theme: { de: "Kultur & Gesellschaft", ja: "文化と社会" },
+  title: { de: "KI und menschliche Kreativität", ja: "AIと人間の芸術" },
+  zustand: {
+    de: "Generative KI erzeugt Texte, Bilder und Musik, die menschlicher Kunst immer ähnlicher werden. Dadurch geraten traditionelle Konzepte von Kreativität, Autorschaft und geistigem Eigentum unter Druck. Gleichzeitig entstehen neue kreative Werkzeuge. Umstritten ist, ob KI Kunst ersetzt oder menschliche Kreativität erweitert.",
+    ja: "生成AIは人間の創作と見分けがつかない作品を生み、創造性や著作権の概念を揺さぶっている。"
+  },
+  issues: [
+    { de: "Kann KI kreativ sein?", ja: "AIは創造的か" },
+    { de: "Wie schützt man Urheberrechte?", ja: "著作権をどう守るか" },
+    { de: "Verändert sich der Wert menschlicher Kunst?", ja: "人間の芸術価値は変わるか" }
+  ],
+  views: {
+    pro: {
+      de: "KI kann als Werkzeug neue Ausdrucksformen ermöglichen und Kreativität demokratisieren. Künstlerinnen und Künstler profitieren von neuen Inspirations- und Produktionsmöglichkeiten.",
+      ja: "AIは創作の道具として表現の幅を広げ、創造行為を民主化する可能性がある。"
+    },
+    contra: {
+      de: "KI-basierte Werke verwässern den Begriff von Kreativität und gefährden wirtschaftlich die Existenz menschlicher Kunstschaffender. Zudem bleiben Urheberrechtsfragen oft ungeklärt.",
+      ja: "創造性の価値が曖昧になり、人間の芸術家の生計が脅かされる恐れがある。"
+    },
+    compromise: {
+      de: "Klare rechtliche Regeln, Transparenz bei KI-Nutzung und die Anerkennung menschlicher Autorschaft können technologische Innovation und kulturelle Vielfalt verbinden.",
+      ja: "法整備と透明性により、技術革新と人間の創作価値を両立させる。"
+    }
+  },
+  redemittel: [
+    "Hier geht es weniger um Technik als um ein kulturelles Selbstverständnis.",
+    "Meiner Ansicht nach sollte KI als Werkzeug, nicht als Ersatz verstanden werden.",
+    "Langfristig braucht es klare Regeln für Autorschaft und Nutzung."
+  ]
+},
+{
+  id: "verbrenner-ev",
+  theme: { de: "Verkehr & Energie", ja: "交通とエネルギー" },
+  title: { de: "Verbrennungsmotor versus Elektromobilität", ja: "燃料車とEVの限界" },
+  zustand: {
+    de: "Elektromobilität wird politisch gefördert, um Emissionen im Verkehrssektor zu senken. Gleichzeitig bestehen Probleme bei Ladeinfrastruktur, Strommix, Rohstoffabhängigkeit und Kosten. Der Verbrennungsmotor ist technisch ausgereift, steht jedoch wegen Klimazielen unter Druck. Die Debatte dreht sich um Technologieoffenheit und Übergangsfristen.",
+    ja: "EVは排出削減策として推進されるが、インフラや資源問題が残る。内燃機関は成熟技術だが規制対象となっている。"
+  },
+  issues: [
+    { de: "Ist Elektromobilität wirklich klimafreundlich?", ja: "EVは本当に環境に良いか" },
+    { de: "Braucht es Verbote oder Anreize?", ja: "禁止か誘導か" },
+    { de: "Wie sozial gerecht ist der Umstieg?", ja: "社会的公平性は確保できるか" }
+  ],
+  views: {
+    pro: {
+      de: "Elektromobilität kann lokale Emissionen reduzieren und ist langfristig klimafreundlicher, insbesondere bei grünem Strom. Sie fördert Innovation und neue Industrien.",
+      ja: "EVは再生可能エネルギーと組み合わせれば環境負荷を下げ、産業革新を促す。"
+    },
+    contra: {
+      de: "Hohe Anschaffungskosten, Rohstoffabhängigkeit und ungleiche Infrastruktur belasten Verbraucher. Der ökologische Nutzen ist ohne sauberen Strom begrenzt.",
+      ja: "高コストや資源依存により、必ずしも環境効果が高いとは言えない。"
+    },
+    compromise: {
+      de: "Technologieoffenheit, realistische Übergangsfristen und ein Ausbau erneuerbarer Energien können ökologische Ziele und soziale Akzeptanz verbinden.",
+      ja: "技術中立と段階的移行で、環境目標と受容性を両立させる。"
+    }
+  },
+  redemittel: [
+    "Es handelt sich um einen klassischen Zielkonflikt zwischen Klima- und Sozialpolitik.",
+    "Entscheidend ist nicht die einzelne Technologie, sondern der Gesamtkontext.",
+    "Kurzfristig braucht es Übergangslösungen, langfristig klare Ziele."
+  ]
+},
+{
+  id: "demografie-jp-de",
+  theme: { de: "Demografie & Sozialstaat", ja: "人口動態と社会保障" },
+  title: { de: "Alternde Gesellschaften in Japan und Deutschland", ja: "日本とドイツの少子高齢化" },
+  zustand: {
+    de: "Japan und Deutschland gehören zu den am stärksten alternden Gesellschaften der Welt. Sinkende Geburtenraten und steigende Lebenserwartung belasten Renten-, Pflege- und Gesundheitssysteme. Deutschland setzt stärker auf Migration, Japan auf Automatisierung und Familienpolitik. Beide Modelle stoßen an Grenzen.",
+    ja: "日独は高齢化が進み、社会保障制度の持続可能性が問われている。対策は異なるが、いずれも限界がある。"
+  },
+  issues: [
+    { de: "Reicht Zuwanderung zur Stabilisierung?", ja: "移民で支えられるか" },
+    { de: "Wie wirksam ist Familienpolitik?", ja: "家族政策は有効か" },
+    { de: "Muss das Rentenalter steigen?", ja: "定年延長は不可避か" }
+  ],
+  views: {
+    pro: {
+      de: "Migration, höhere Erwerbsbeteiligung von Frauen und Älteren sowie Produktivitätssteigerungen können dem demografischen Druck entgegenwirken.",
+      ja: "移民、女性・高齢者就労、生産性向上が緩和策となる。"
+    },
+    contra: {
+      de: "Migration allein löst strukturelle Probleme nicht. Familienpolitik wirkt nur langfristig, und höhere Belastungen gefährden gesellschaftliche Akzeptanz.",
+      ja: "移民だけでは不十分で、負担増は反発を招く。"
+    },
+    compromise: {
+      de: "Ein Maßnahmenmix aus moderater Zuwanderung, besserer Vereinbarkeit von Familie und Beruf sowie schrittweisen Rentenreformen erscheint am realistischsten.",
+      ja: "移民・家族支援・年金改革を組み合わせる現実路線が必要。"
+    }
+  },
+  redemittel: [
+    "Im internationalen Vergleich zeigen sich unterschiedliche Strategien.",
+    "Keine Maßnahme allein ist ausreichend.",
+    "Langfristig geht es um die finanzielle Tragfähigkeit des Sozialstaats."
+  ]
+},
 ];
