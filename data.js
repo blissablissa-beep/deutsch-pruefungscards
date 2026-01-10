@@ -244,4 +244,169 @@ window.CARDS = [
     "Langfristig geht es um die finanzielle Tragfähigkeit des Sozialstaats."
   ]
 },
+{
+  id: "jugend-smartphone",
+  theme: { de: "Bildung & Gesellschaft", ja: "教育と社会" },
+  title: { de: "Smartphone-Regulierung für Minderjährige", ja: "未成年のスマホ規制の是非" },
+  zustand: {
+    de: "Smartphones prägen den Alltag von Kindern und Jugendlichen, etwa durch soziale Medien, Messenger und Online-Spiele. Gleichzeitig wachsen Sorgen über Konzentrationsprobleme, Schlafmangel, Cybermobbing und problematische Inhalte. Schulen und Politik diskutieren daher über Altersgrenzen, Nutzungsverbote und medienpädagogische Konzepte. Die zentrale Frage lautet, wie man Schutz und Teilhabe sinnvoll austariert.",
+    ja: "スマホは未成年の日常に深く入り込む一方、集中力低下や睡眠不足、ネットいじめ、有害コンテンツなどが問題化している。年齢制限や学校での禁止などが議論され、保護と参加のバランスが焦点。"
+  },
+  issues: [
+    { de: "Schützen Verbote oder fördern sie Ausweichverhalten?", ja: "禁止は保護か、抜け道を生むか" },
+    { de: "Welche Verantwortung tragen Eltern, Schulen und Plattformen?", ja: "親・学校・プラットフォームの責任分担" },
+    { de: "Wie verbindet man Medienkompetenz mit Jugendschutz?", ja: "メディア教育と青少年保護の両立" }
+  ],
+  views: {
+    pro: {
+      de: "Klare Regeln können Minderjährige vor Abhängigkeit, Cybermobbing und manipulativen Mechanismen schützen. In Schulen fördern smartphonefreie Zeiten Konzentration und soziale Interaktion. Altersgerechte Einschränkungen können zudem Druck durch soziale Medien reduzieren.",
+      ja: "明確なルールは依存やネットいじめ、過度な刺激から未成年を守れる。学校でのスマホフリーは集中と対人関係を改善しうる。"
+    },
+    contra: {
+      de: "Zu strikte Verbote ignorieren die digitale Realität und können soziale Teilhabe erschweren. Kinder lernen den Umgang nicht automatisch, wenn man Geräte nur verbietet. Außerdem besteht das Risiko, dass Kontrolle ins Private ausweicht und Vertrauen beschädigt.",
+      ja: "厳しすぎる禁止はデジタル社会の現実を無視し、参加や学習機会を奪いかねない。禁止だけでは使い方を学べず、過剰な監視は信頼を損なう。"
+    },
+    compromise: {
+      de: "Sinnvoll ist ein Stufenmodell: klare Regeln nach Alter, smartphonefreie Lernphasen in der Schule, begleitete Medienbildung sowie strengere Plattformpflichten (Datenschutz, Werbe- und Suchtmechanismen, Meldesysteme).",
+      ja: "年齢に応じた段階規制＋学校での学習時間はスマホフリー、家庭・学校でのメディア教育、さらにプラットフォーム側の規制強化を組み合わせる。"
+    }
+  },
+  redemittel: [
+    "Hier geht es um den Ausgleich zwischen Schutz und Teilhabe.",
+    "Verbote allein lösen das Problem nicht; entscheidend ist Medienkompetenz.",
+    "Aus meiner Sicht braucht es klare Regeln, aber auch Erziehung und Verantwortung der Plattformen."
+  ]
+},
+{
+  id: "populismus-demokratie",
+  theme: { de: "Politik & Gesellschaft", ja: "政治と社会" },
+  title: { de: "Populismus und Demokratie", ja: "ポピュリズム政党とデモクラシー" },
+  zustand: {
+    de: "In vielen Demokratien gewinnen populistische Parteien an Einfluss. Sie kritisieren etablierte Eliten, versprechen einfache Lösungen und mobilisieren stark über Emotionen und soziale Medien. Befürworter sehen darin eine Korrektur politischer Blindstellen, Kritiker warnen vor Polarisierung, Desinformation und Angriffen auf unabhängige Institutionen. Damit stellt sich die Frage, wie Demokratie mit Protest und Radikalisierung umgehen soll.",
+    ja: "多くの民主主義国でポピュリズム政党が台頭している。既存エリート批判や単純解を掲げ、SNSで動員する一方、分断や偽情報、制度への攻撃が懸念される。民主主義がどう向き合うかが問われる。"
+  },
+  issues: [
+    { de: "Sind populistische Parteien ein Warnsignal oder eine Gefahr?", ja: "警鐘か脅威か" },
+    { de: "Wie schützt man Institutionen ohne Meinungsfreiheit zu beschneiden?", ja: "言論の自由と制度防衛の両立" },
+    { de: "Welche Rolle spielen Medien, Bildung und soziale Ungleichheit?", ja: "メディア・教育・格差の役割" }
+  ],
+  views: {
+    pro: {
+      de: "Populistische Bewegungen können reale Sorgen sichtbar machen, die etablierte Parteien übersehen haben. Sie zwingen Politik, verständlicher zu kommunizieren und Themen wie soziale Gerechtigkeit oder Migration offener zu diskutieren.",
+      ja: "既存政党が見落としてきた不安や不満を可視化し、政治の説明責任や論点の透明化を促す面がある。"
+    },
+    contra: {
+      de: "Populismus vereinfacht komplexe Probleme, arbeitet häufig mit Sündenböcken und schwächt Vertrauen in Institutionen. Wenn Gerichte, Medien oder Wissenschaft delegitimiert werden, gerät die demokratische Ordnung unter Druck.",
+      ja: "複雑な課題を単純化し、スケープゴート化や制度不信を煽りやすい。司法・メディア・科学の正統性を傷つけると民主主義が危うくなる。"
+    },
+    compromise: {
+      de: "Demokratie sollte Kritik ernst nehmen, aber klare Grenzen ziehen: transparente Politik, soziale Ausgleichspolitik und politische Bildung stärken, zugleich Rechtsstaat und unabhängige Institutionen konsequent schützen.",
+      ja: "不満を放置せず透明性と社会的包摂を強めつつ、法治と独立機関を守る線引きを明確にする。"
+    }
+  },
+  redemittel: [
+    "Man muss zwischen legitimer Proteststimme und antidemokratischer Delegitimierung unterscheiden.",
+    "Aus meiner Sicht ist Transparenz wichtig, aber ebenso die Stärke des Rechtsstaats.",
+    "Entscheidend ist, Polarisierung zu reduzieren, ohne Kritik zu tabuisieren."
+  ]
+},
+{
+  id: "ehe-gleichgeschlechtlich-jp",
+  theme: { de: "Recht & Gesellschaft", ja: "法と社会" },
+  title: { de: "Gleichgeschlechtliche Ehe und Familienbild in Japan", ja: "同性婚と家族観（日本で認めるべきか）" },
+  zustand: {
+    de: "Viele Staaten haben die gleichgeschlechtliche Ehe eingeführt und begründen dies mit Gleichbehandlung und Menschenrechten. In Japan ist die Ehe rechtlich bisher heterosexuellen Paaren vorbehalten, während einige Kommunen Partnerschaftszertifikate ausstellen. Befürworter fordern rechtliche Sicherheit in Bereichen wie Erbrecht, Pflege und Kinder, Gegner betonen Tradition und verfassungsrechtliche Fragen. Die Debatte verbindet rechtliche Gleichstellung mit gesellschaftlichem Wertewandel.",
+    ja: "諸外国では同性婚が広がる一方、日本では法的には未整備で、自治体のパートナー証明にとどまる場合が多い。相続・医療・子どもなどの法的安定を求める声と、伝統的家族観や憲法解釈を巡る議論がある。"
+  },
+  issues: [
+    { de: "Geht es primär um Gleichheit vor dem Gesetz?", ja: "法の下の平等が中心か" },
+    { de: "Welche Folgen hat es für Kinder und Familienrecht?", ja: "子ども・家族法への影響" },
+    { de: "Braucht es Ehe oder reicht eine eingetragene Partnerschaft?", ja: "婚姻かパートナー制度か" }
+  ],
+  views: {
+    pro: {
+      de: "Die Öffnung der Ehe stärkt Gleichbehandlung und schafft rechtliche Sicherheit im Alltag, etwa bei Krankenhausbesuchen, Erbrecht, Steuern und Sorgerechtsfragen. Sie signalisiert zudem gesellschaftliche Anerkennung und kann Diskriminierung reduzieren.",
+      ja: "婚姻の平等化は相続・医療・税制などの法的安定をもたらし、差別を減らす社会的メッセージにもなる。"
+    },
+    contra: {
+      de: "Kritiker befürchten einen Bruch mit traditionellen Familienbildern oder sehen verfassungsrechtliche Hürden. Außerdem wird argumentiert, dass die Ehe historisch mit Fortpflanzung und Kindererziehung verbunden sei, weshalb alternative Modelle genügen könnten.",
+      ja: "伝統的家族観との衝突や憲法上の論点が指摘される。婚姻は歴史的に生殖・子育てと結びつくとして、別制度で十分という主張もある。"
+    },
+    compromise: {
+      de: "Ein realistischer Weg ist, zunächst umfassende Partnerschaftsrechte zu garantieren (Erbe, Pflege, Steuer, Aufenthalt), parallel eine sachliche Verfassungsdebatte zu führen. Ziel sollte gleiche Rechte bei klaren Regeln im Familienrecht sein.",
+      ja: "まず包括的なパートナー法を整備し、憲法論議を整理した上で、家族法のルールを明確にしつつ権利を平等化する。"
+    }
+  },
+  redemittel: [
+    "Im Kern geht es um Gleichbehandlung und rechtliche Sicherheit im Alltag.",
+    "Man sollte zwischen moralischen Vorstellungen und staatlicher Rechtsordnung unterscheiden.",
+    "Aus meiner Sicht ist entscheidend, gleiche Rechte zu schaffen und gleichzeitig klare familienrechtliche Regeln zu definieren."
+  ]
+},
+{
+  id: "fiskalregeln-jp-de",
+  theme: { de: "Wirtschaft & Staat", ja: "経済と国家" },
+  title: { de: "Fiskalregeln in Japan und Deutschland", ja: "日独の財政規律（違いと課題）" },
+  zustand: {
+    de: "Deutschland setzt traditionell stark auf fiskalische Regeln wie die Schuldenbremse, um Neuverschuldung zu begrenzen und Vertrauen in die Stabilität zu sichern. Japan dagegen hat seit Jahrzehnten eine sehr hohe Staatsverschuldung, stützt Wirtschaft und Sozialstaat aber häufig durch expansive Fiskalpolitik und eine besondere Rolle der Zentralbank. Beide Länder stehen vor Herausforderungen: Deutschland ringt um Investitionen und Modernisierung, Japan um langfristige Tragfähigkeit bei Demografie und Zinsrisiken. Die Frage lautet, wie man Stabilität und Zukunftsinvestitionen ausbalanciert.",
+    ja: "ドイツは債務ブレーキなど規律重視の枠組みが強い一方、日本は高い政府債務の下で景気・社会保障を支える拡張的政策が続いてきた。ドイツは投資不足、日本は持続可能性や金利上昇リスクが論点で、安定と未来投資の両立が課題。"
+  },
+  issues: [
+    { de: "Braucht Deutschland mehr Spielraum für Investitionen?", ja: "ドイツは投資のために柔軟性が必要か" },
+    { de: "Wie riskant ist Japans hohe Verschuldung langfristig?", ja: "日本の高債務は長期的にどこまで危険か" },
+    { de: "Welche Regeln erhöhen Akzeptanz und Transparenz?", ja: "納得感と透明性を高めるルールとは" }
+  ],
+  views: {
+    pro: {
+      de: "Strikte Regeln wie die Schuldenbremse können Haushaltsdisziplin sichern, Inflationserwartungen stabilisieren und Generationengerechtigkeit fördern. Sie zwingen Politik, Prioritäten zu setzen und ineffiziente Ausgaben zu prüfen.",
+      ja: "厳格な規律は財政の信認や世代間公平を支え、優先順位付けを促す。"
+    },
+    contra: {
+      de: "Zu starre Regeln können notwendige Zukunftsinvestitionen bremsen, etwa in Infrastruktur, Digitalisierung oder Klimaschutz. In Krisen kann eine prozyklische Sparpolitik die Wirtschaft zusätzlich schwächen und politische Akzeptanz untergraben.",
+      ja: "硬直的すぎる規律はインフラ・デジタル・気候など将来投資を阻害し、危機時には景気悪化を深め得る。"
+    },
+    compromise: {
+      de: "Sinnvoll ist eine regelgebundene Flexibilität: klare Kriterien für Investitionen, transparente Sonderbudgets, unabhängige Evaluation und ein glaubwürdiger Pfad zur Stabilisierung. So lässt sich Investitionsfähigkeit erhöhen, ohne Vertrauen zu verlieren.",
+      ja: "投資を例外扱いする基準を明確化し、透明な特別枠と第三者評価を組み合わせ、信認を維持しつつ投資余地を確保する。"
+    }
+  },
+  redemittel: [
+    "Im Vergleich zeigt sich ein unterschiedlicher Umgang mit Risiko und Verantwortung.",
+    "Es geht um den Zielkonflikt zwischen Stabilität und Investitionsfähigkeit.",
+    "Aus meiner Sicht braucht es klare Regeln, aber auch Transparenz und Flexibilität in Krisen."
+  ]
+},
+{
+  id: "jugend-sns-regulierung",
+  theme: { de: "Medien & Regulierung", ja: "メディアと規制" },
+  title: { de: "Soziale Medien und Jugendschutz", ja: "未成年とSNS規制" },
+  zustand: {
+    de: "Soziale Medien spielen eine zentrale Rolle im Leben von Jugendlichen, dienen der Kommunikation und Identitätsbildung, bergen aber auch Risiken wie Cybermobbing, Desinformation, problematische Inhalte und Suchtmechanismen. Staaten diskutieren daher Altersverifikation, Nutzungsbeschränkungen und strengere Pflichten für Plattformen. Umstritten ist, wie weit staatliche Regulierung gehen darf, ohne Meinungsfreiheit und Teilhabe zu beschneiden.",
+    ja: "SNSは若者の交流や自己形成に重要だが、ネットいじめ、偽情報、有害コンテンツ、依存的設計などのリスクも大きい。年齢確認や利用制限、事業者責任の強化が議論され、規制の範囲が争点となっている。"
+  },
+  issues: [
+    { de: "Braucht es eine verbindliche Altersverifikation?", ja: "年齢確認は義務化すべきか" },
+    { de: "Wie weit reicht die Verantwortung der Plattformen?", ja: "プラットフォーム責任の範囲" },
+    { de: "Wie schützt man Jugendliche ohne Überwachung?", ja: "監視にならずに保護できるか" }
+  ],
+  views: {
+    pro: {
+      de: "Strengere Regeln für soziale Medien können Jugendliche besser vor schädlichen Inhalten, Manipulation und Suchtmechanismen schützen. Altersverifikation und klare Haftungsregeln erhöhen den Druck auf Plattformen, Verantwortung zu übernehmen.",
+      ja: "規制強化は有害コンテンツや依存的設計から若者を守り、事業者に責任を負わせる効果がある。"
+    },
+    contra: {
+      de: "Zu weitgehende Regulierung kann Meinungsfreiheit einschränken, Datenschutz gefährden und Jugendliche von gesellschaftlicher Teilhabe ausschließen. Altersverifikation birgt zudem Missbrauchs- und Überwachungsrisiken.",
+      ja: "過度な規制は言論の自由やプライバシーを侵害し、社会参加を妨げる恐れがある。"
+    },
+    compromise: {
+      de: "Ein ausgewogener Ansatz kombiniert strengere Plattformpflichten (Algorithmen-Transparenz, Meldewege, Werbebeschränkungen) mit freiwilligen Alterskontrollen, Medienbildung und unabhängiger Aufsicht.",
+      ja: "アルゴリズム透明化や広告制限などの事業者規制に、任意の年齢管理とメディア教育、第三者監督を組み合わせる。"
+    }
+  },
+  redemittel: [
+    "Hier stellt sich die Frage nach der Verantwortung digitaler Plattformen.",
+    "Jugendschutz darf nicht automatisch zu Überwachung führen.",
+    "Aus meiner Sicht braucht es klare Regeln für Anbieter, nicht für jede einzelne Nutzerin."
+  ]
+},
 ];
