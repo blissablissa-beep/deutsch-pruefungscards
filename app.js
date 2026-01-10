@@ -65,6 +65,7 @@ function cardMatchesQuery(card, q, lang) {
   const hay = [
     t(card.theme, lang),
     t(card.title, lang),
+    t(card.zustand, lang),
     ...(card.issues || []).map(x => t(x, lang)),
     card.views?.pro ? t(card.views.pro, lang) : "",
     card.views?.contra ? t(card.views.contra, lang) : "",
@@ -137,6 +138,8 @@ function renderList() {
 
           ${collapsed ? "" : `
             <hr />
+            <div class="section-title">${lang==="de" ? "Zustandsbeschreibung" : "状況説明"}</div>
+            <div class="small">${t(c.zustand, lang) || (lang==="de" ? "—" : "—")}</div>
             <div class="section-title">${lang==="de" ? "Typische Fragen / Aspekte" : "頻出論点"}</div>
             <ul>
               ${(c.issues||[]).slice(0,4).map(x=>`<li>${t(x, lang)}</li>`).join("")}
@@ -205,6 +208,10 @@ function renderCard(id) {
       </div>
 
       <hr />
+      <div class="box" style="margin-bottom:10px">
+  <div class="box-title">${lang==="de" ? "Zustandsbeschreibung" : "状況説明"}</div>
+  <div>${t(c.zustand, lang) || (lang==="de" ? "—" : "—")}</div>
+</div>
 
       <div class="section-title">${lang==="de" ? "Typische Fragen / Aspekte" : "頻出論点"}</div>
       <ul>${(c.issues||[]).map(x=>`<li>${t(x, lang)}</li>`).join("")}</ul>
