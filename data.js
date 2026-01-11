@@ -541,4 +541,103 @@ window.CARDS = [
     "Aus meiner Sicht braucht es klare Zuständigkeiten auf jeder Ebene."
   ]
 },
+{
+  id: "stadt-parkraum",
+  theme: { de: "Stadtentwicklung & Verkehr", ja: "都市政策と交通" },
+  title: { de: "Parkraummangel in wachsenden Großstädten", ja: "過密都市と駐車場問題" },
+  zustand: {
+    de: "In vielen Großstädten konkurrieren Wohnen, Verkehr, Grünflächen und Gewerbe um begrenzten Raum. Parkplätze nehmen dabei viel Fläche ein, stehen oft leer oder werden ineffizient genutzt. Gleichzeitig bleibt das Auto für viele Menschen wichtig. Die Debatte verlagert sich zunehmend von der Frage nach Parkplätzen hin zu einer grundsätzlichen Diskussion über Flächennutzung und Mobilität.",
+    ja: "大都市では住宅、交通、緑地、商業が限られた空間を奪い合っている。駐車場は広い面積を占める一方、利用効率が低い場合も多い。問題は単なる駐車不足ではなく、都市空間の使い方そのものにある。"
+  },
+  issues: [
+    { de: "Soll öffentlicher Raum dem Auto gewidmet bleiben?", ja: "公共空間は車のために使うべきか" },
+    { de: "Wer trägt die Kosten für Parkraum?", ja: "駐車スペースのコストは誰が負担するか" },
+    { de: "Welche Alternativen gibt es zum privaten Pkw?", ja: "自家用車以外の選択肢は何か" }
+  ],
+  views: {
+    pro: {
+      de: "Eine Reduzierung von Parkplätzen schafft Raum für Wohnen, Grünflächen und Aufenthaltsqualität. Höhere Parkgebühren können Verkehr lenken und den Umstieg auf öffentliche Verkehrsmittel fördern.",
+      ja: "駐車場削減は住宅や緑地の確保につながり、料金引き上げは交通行動を変える効果がある。"
+    },
+    contra: {
+      de: "Zu starke Einschränkungen treffen Pendler, Handwerk und Menschen mit eingeschränkter Mobilität. Ohne attraktive Alternativen führt Parkraummangel zu Frust und Ausweichverkehr.",
+      ja: "過度な制限は通勤者や高齢者、業務利用に不利で、代替手段がなければ混乱を招く。"
+    },
+    compromise: {
+      de: "Ein integrierter Ansatz kombiniert Parkraumbewirtschaftung, Quartiersgaragen, Carsharing und einen konsequenten Ausbau des öffentlichen Verkehrs.",
+      ja: "駐車管理、共同駐車場、カーシェア、公共交通の強化を組み合わせる。"
+    }
+  },
+  redemittel: [
+    "Im Kern ist Parkraummangel ein Problem der Flächennutzung.",
+    "Die Frage ist weniger Auto ja oder nein, sondern wie Raum effizient genutzt wird.",
+    "Aus meiner Sicht braucht es Alternativen, bevor man stark einschränkt."
+  ]
+},
+{
+  id: "overtourismus",
+  theme: { de: "Tourismus & Nachhaltigkeit", ja: "観光と持続可能性" },
+  title: { de: "Obertourismus und staatliche Regulierung", ja: "オーバーツーリズムと規制の是非" },
+  zustand: {
+    de: "Beliebte Reiseziele leiden zunehmend unter hohen Besucherzahlen, die Infrastruktur, Umwelt und Lebensqualität der lokalen Bevölkerung belasten. Gleichzeitig ist Tourismus ein wichtiger Wirtschaftsfaktor. Kritiker bemängeln, dass der Begriff Overtourismus zu kurz greift und strukturelle Probleme wie Wohnungsmarkt, Mobilität und ungleiche Wertschöpfung verdeckt. Politik steht vor der Frage, ob und wie Tourismus reguliert werden sollte.",
+    ja: "観光地では訪問者集中により環境や住民生活への負荷が高まっている。一方、観光は重要な産業でもある。単なる『観光客が多すぎる』という見方では不十分で、住宅や交通など構造問題も絡む。"
+  },
+  issues: [
+    { de: "Braucht es Besucherobergrenzen?", ja: "入域制限は必要か" },
+    { de: "Wer profitiert vom Tourismus?", ja: "観光の利益は誰に分配されているか" },
+    { de: "Wie schützt man Lebensqualität und Umwelt?", ja: "生活の質と環境をどう守るか" }
+  ],
+  views: {
+    pro: {
+      de: "Regulierungen wie Besucherlimits, Abgaben oder zeitliche Steuerung können Umwelt und Wohnraum schützen und Konflikte mit der lokalen Bevölkerung reduzieren.",
+      ja: "入域制限や課金は環境や住民生活の保護に寄与する。"
+    },
+    contra: {
+      de: "Starre Beschränkungen gefährden Arbeitsplätze und Einnahmen. Zudem besteht die Gefahr, dass Probleme nur verlagert werden, statt Ursachen wie Wohnraummangel anzugehen.",
+      ja: "硬直的規制は雇用や収入を損ない、問題の根本解決にならない恐れがある。"
+    },
+    compromise: {
+      de: "Nachhaltiger Tourismus erfordert eine Kombination aus Lenkung, fairer Wertschöpfung, Investitionen in Infrastruktur und Beteiligung der lokalen Bevölkerung.",
+      ja: "観光の誘導、利益配分の改善、インフラ投資、住民参加を組み合わせる。"
+    }
+  },
+  redemittel: [
+    "Overtourismus ist weniger ein Mengen- als ein Strukturproblem.",
+    "Tourismuspolitik muss Umwelt, Wirtschaft und Lebensqualität zusammendenken.",
+    "Aus meiner Sicht braucht es Steuerung statt pauschaler Verbote."
+  ]
+},
+{
+  id: "schulessen-religion",
+  theme: { de: "Bildung & Integration", ja: "教育と統合" },
+  title: { de: "Schulessen und religiöse Rücksichtnahme", ja: "学校給食と宗教的配慮（ハラール）" },
+  zustand: {
+    de: "In pluralistischen Gesellschaften treffen unterschiedliche religiöse und kulturelle Ernährungsregeln auf staatliche Institutionen wie Schulen. Besonders beim Thema Halal-Essen stellt sich die Frage, ob und wie öffentliche Einrichtungen darauf Rücksicht nehmen sollen. Die Debatte berührt Gleichbehandlung, Religionsfreiheit, organisatorischen Aufwand und gesellschaftlichen Zusammenhalt.",
+    ja: "多文化社会では宗教的食規定と公的制度が交差する。学校給食でのハラール対応は、宗教の自由、平等、運営負担、社会的統合を巡る議論を引き起こす。"
+  },
+  issues: [
+    { de: "Ist religiöse Anpassung Aufgabe staatlicher Schulen?", ja: "公立学校は宗教配慮すべきか" },
+    { de: "Wo liegen die Grenzen der Neutralität?", ja: "国家の中立性の限界" },
+    { de: "Fördert oder behindert Anpassung Integration?", ja: "配慮は統合を促すか阻むか" }
+  ],
+  views: {
+    pro: {
+      de: "Religiöse Rücksichtnahme kann Ausgrenzung vermeiden und Teilhabe sichern. Wahlmöglichkeiten beim Essen stärken Integration und Akzeptanz im Schulalltag.",
+      ja: "宗教配慮は排除を防ぎ、参加と安心感を高める。"
+    },
+    contra: {
+      de: "Zu weitgehende Anpassung kann organisatorisch aufwendig sein und staatliche Neutralität infrage stellen. Zudem besteht die Sorge vor Parallelstrukturen.",
+      ja: "過度な対応は運営負担が大きく、中立性や分断を招く懸念がある。"
+    },
+    compromise: {
+      de: "Pragmatische Lösungen wie vegetarische Optionen für alle können religiöse Bedürfnisse berücksichtigen, ohne das System zu überfrachten.",
+      ja: "全員向けのベジタリアン選択肢など、実務的解決が現実的。"
+    }
+  },
+  redemittel: [
+    "Hier geht es um den Umgang mit Vielfalt im öffentlichen Raum.",
+    "Staatliche Neutralität bedeutet nicht Ignorieren, sondern faire Regeln.",
+    "Aus meiner Sicht sind pragmatische Lösungen besser als Sonderregelungen."
+  ]
+},
 ];
