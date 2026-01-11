@@ -192,6 +192,10 @@ function renderCard(id) {
     const tip = v.tip ? `<div class="small" style="margin-top:6px">${v.tip}</div>` : "";
     return `<div style="margin:8px 0">${head}${tip}</div>`;
   }).join("");
+  
+  const redeHtml = (c.redemittel || [])
+  .map(s => `<li>${s}</li>`)
+  .join("");
 
   app.innerHTML = `
     <div class="card">
@@ -212,7 +216,12 @@ function renderCard(id) {
   <div class="box-title">${lang==="de" ? "Zustandsbeschreibung" : "状況説明"}</div>
   <div>${t(c.zustand, lang) || (lang==="de" ? "—" : "—")}</div>
 </div>
+<div class="section-title">${lang==="de" ? "Redemittel (für die Prüfung)" : "試験用フレーズ"}</div>
+<ul>
+  ${redeHtml || `<li class="small">${lang==="de" ? "Keine Redemittel." : "フレーズなし。"}</li>`}
+</ul>
 
+<hr />
       <div class="section-title">${lang==="de" ? "Typische Fragen / Aspekte" : "頻出論点"}</div>
       <ul>${(c.issues||[]).map(x=>`<li>${t(x, lang)}</li>`).join("")}</ul>
 
