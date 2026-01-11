@@ -409,4 +409,136 @@ window.CARDS = [
     "Aus meiner Sicht braucht es klare Regeln für Anbieter, nicht für jede einzelne Nutzerin."
   ]
 },
+{
+  id: "gesundheit-zucker",
+  theme: { de: "Gesundheit & Staat", ja: "健康と国家" },
+  title: { de: "Gesundheitsschutz und Zuckerregulierung", ja: "健康問題とスナック・砂糖規制" },
+  zustand: {
+    de: "Übergewicht, Diabetes und Herz-Kreislauf-Erkrankungen nehmen in vielen Ländern zu. Zuckerreiche Snacks und Getränke gelten als ein zentraler Risikofaktor, insbesondere bei Kindern. Staaten diskutieren daher Maßnahmen wie Zuckersteuern, Werbebeschränkungen und klare Nährwertkennzeichnung. Umstritten ist, wie weit staatliche Eingriffe in Konsumentscheidungen gehen dürfen.",
+    ja: "肥満や糖尿病などの生活習慣病が増加し、砂糖の多い食品が要因とされる。砂糖税や広告規制、表示義務が議論され、国家介入の是非が問われている。"
+  },
+  issues: [
+    { de: "Wirken Steuern und Verbote tatsächlich?", ja: "税や規制は効果があるか" },
+    { de: "Wie viel Eigenverantwortung ist zumutbar?", ja: "自己責任の範囲" },
+    { de: "Sollte Kinderschutz Vorrang haben?", ja: "子ども保護を優先すべきか" }
+  ],
+  views: {
+    pro: {
+      de: "Regulierungen können nachweislich den Zuckerkonsum senken und langfristige Gesundheitskosten reduzieren. Besonders Kinder profitieren von Werbeverboten und klaren Kennzeichnungen.",
+      ja: "規制は砂糖摂取を抑え、医療費削減につながる。子ども保護の効果が大きい。"
+    },
+    contra: {
+      de: "Solche Maßnahmen greifen in individuelle Konsumfreiheit ein und treffen einkommensschwache Haushalte überproportional. Zudem ist der gesundheitliche Effekt nicht immer eindeutig.",
+      ja: "消費の自由を侵し、低所得層に不利となる可能性がある。効果も一概ではない。"
+    },
+    compromise: {
+      de: "Eine Kombination aus transparenter Kennzeichnung, Bildungsprogrammen und moderaten fiskalischen Anreizen erscheint ausgewogener als reine Verbote.",
+      ja: "表示義務や教育と、穏やかな税制誘導を組み合わせるのが現実的。"
+    }
+  },
+  redemittel: [
+    "Hier prallen Gesundheitsschutz und Konsumfreiheit aufeinander.",
+    "Besonders beim Kinderschutz rechtfertigen sich staatliche Eingriffe eher.",
+    "Aus meiner Sicht sind Information und Anreize wirksamer als pauschale Verbote."
+  ]
+},
+{
+  id: "alterung-rente",
+  theme: { de: "Sozialstaat & Demografie", ja: "社会保障と人口動態" },
+  title: { de: "Alternde Gesellschaft und Rentensystem", ja: "高齢化と年金制度の両立" },
+  zustand: {
+    de: "Die Alterung der Bevölkerung belastet umlagefinanzierte Rentensysteme zunehmend. Sinkende Geburtenzahlen und längere Lebenserwartung verschieben das Verhältnis von Beitragszahlern zu Rentenempfängern. Politik diskutiert höhere Beiträge, ein steigendes Rentenalter und kapitalgedeckte Elemente. Ziel ist die langfristige Finanzierbarkeit bei gesellschaftlicher Akzeptanz.",
+    ja: "高齢化により年金制度の支え手が減り、受給者が増加している。保険料、定年、積立方式の見直しが議論されている。"
+  },
+  issues: [
+    { de: "Muss das Rentenalter weiter steigen?", ja: "定年延長は不可避か" },
+    { de: "Welche Rolle spielt private Vorsorge?", ja: "私的年金の役割" },
+    { de: "Wie wahrt man Generationengerechtigkeit?", ja: "世代間公平をどう保つか" }
+  ],
+  views: {
+    pro: {
+      de: "Reformen wie ein höheres Rentenalter und zusätzliche Kapitaldeckung können die Finanzierung stabilisieren und die Last fairer verteilen.",
+      ja: "定年延長や積立方式は持続性と負担分散に寄与する。"
+    },
+    contra: {
+      de: "Nicht alle Berufsgruppen können länger arbeiten, und stärkere Eigenvorsorge verschärft soziale Ungleichheit.",
+      ja: "長く働けない職種も多く、自己責任強化は格差を拡大する。"
+    },
+    compromise: {
+      de: "Ein flexibles Rentenalter, gezielte Entlastung körperlich belastender Berufe und ein ausgewogener Mix aus Umlage und Kapitaldeckung gelten als tragfähiger Mittelweg.",
+      ja: "柔軟な定年と職種配慮、賦課と積立の併用が現実的。"
+    }
+  },
+  redemittel: [
+    "Es geht um die langfristige Tragfähigkeit des Sozialstaats.",
+    "Generationengerechtigkeit spielt hier eine zentrale Rolle.",
+    "Reformen sind unvermeidbar, müssen aber sozial ausgewogen sein."
+  ]
+},
+{
+  id: "laendlicher-raum",
+  theme: { de: "Regionalpolitik & Demografie", ja: "地域政策と人口動態" },
+  title: { de: "Geburtenrückgang und ländliche Räume", ja: "少子化と過疎化する地方対策" },
+  zustand: {
+    de: "Geburtenrückgang und Abwanderung führen in vielen Regionen zu Überalterung und Infrastrukturabbau. Schulen, medizinische Versorgung und Verkehrsanbindungen geraten unter Druck. Staaten suchen nach Strategien, um ländliche Räume attraktiv zu halten und regionale Ungleichgewichte zu reduzieren.",
+    ja: "出生率低下と若年層流出により、地方では高齢化とインフラ縮小が進む。地域間格差の是正が課題。"
+  },
+  issues: [
+    { de: "Welche Infrastruktur ist unverzichtbar?", ja: "最低限必要なインフラは何か" },
+    { de: "Kann Digitalisierung Abwanderung bremsen?", ja: "デジタル化は流出を止められるか" },
+    { de: "Wie verteilt man Ressourcen gerecht?", ja: "資源配分の公平性" }
+  ],
+  views: {
+    pro: {
+      de: "Gezielte Investitionen in Verkehr, medizinische Versorgung und digitale Infrastruktur können Lebensqualität sichern und Abwanderung bremsen.",
+      ja: "インフラ投資は生活の質を保ち、流出抑制に寄与する。"
+    },
+    contra: {
+      de: "Nicht jede Region kann dauerhaft erhalten werden. Hohe Kosten bei geringer Bevölkerungsdichte werfen Effizienzfragen auf.",
+      ja: "全地域維持は非効率で、財政負担が大きい。"
+    },
+    compromise: {
+      de: "Regionale Schwerpunktbildung, mobile Dienstleistungen und digitale Angebote können Grundversorgung sichern, ohne Ressourcen zu stark zu streuen.",
+      ja: "拠点化とモバイル・デジタルサービスで最低限を確保する。"
+    }
+  },
+  redemittel: [
+    "Hier zeigt sich der Zielkonflikt zwischen Gleichwertigkeit und Effizienz.",
+    "Nicht jede Region kann identisch gefördert werden.",
+    "Aus meiner Sicht braucht es realistische Prioritäten."
+  ]
+},
+{
+  id: "zentralismus-dezentralisierung",
+  theme: { de: "Staat & Verwaltung", ja: "国家と行政" },
+  title: { de: "Zentralisierung und Föderalismus (Japan–Deutschland)", ja: "一極集中と地方分権（日独比較）" },
+  zustand: {
+    de: "Japan ist stark zentralisiert, insbesondere wirtschaftlich und administrativ auf Tokio ausgerichtet. Deutschland hingegen ist föderal organisiert, mit starken Ländern und mehreren wirtschaftlichen Zentren. Beide Modelle haben Vor- und Nachteile in Bezug auf Effizienz, demokratische Teilhabe und regionale Entwicklung. Die Frage ist, welches Maß an Dezentralisierung zukunftsfähig ist.",
+    ja: "日本は東京一極集中が顕著で、ドイツは連邦制により権限と機能が分散している。効率性、民主性、地域活力の観点から比較が求められる。"
+  },
+  issues: [
+    { de: "Fördert Föderalismus regionale Stärke?", ja: "連邦制は地域活力を高めるか" },
+    { de: "Geht Effizienz durch Dezentralisierung verloren?", ja: "分権で効率は下がるか" },
+    { de: "Was lässt sich zwischen Japan und Deutschland übertragen?", ja: "相互に学べる点は何か" }
+  ],
+  views: {
+    pro: {
+      de: "Dezentralisierung stärkt regionale Verantwortung, politische Nähe und Krisenresilienz. Deutschlands föderales System verteilt Risiken und Kompetenzen.",
+      ja: "分権は地域の自立と政治的近接性を高める。"
+    },
+    contra: {
+      de: "Zu starke Zersplitterung kann Entscheidungsprozesse verlangsamen und Koordinationsprobleme verursachen, etwa in Krisensituationen.",
+      ja: "過度な分権は調整コストや意思決定の遅れを招く。"
+    },
+    compromise: {
+      de: "Ein klarer Kompetenzmix: nationale Standards und Finanzierung, kombiniert mit regionaler Umsetzung und Gestaltungsspielräumen.",
+      ja: "国家レベルの基準と財源＋地域の裁量を組み合わせる。"
+    }
+  },
+  redemittel: [
+    "Im Vergleich zeigt sich ein anderer Umgang mit Zentralisierung.",
+    "Föderalismus bedeutet nicht Ineffizienz, sondern Arbeitsteilung.",
+    "Aus meiner Sicht braucht es klare Zuständigkeiten auf jeder Ebene."
+  ]
+},
 ];
