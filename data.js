@@ -640,4 +640,93 @@ window.CARDS = [
     "Aus meiner Sicht sind pragmatische Lösungen besser als Sonderregelungen."
   ]
 },
+// === add these cards to window.CARDS ===
+
+{
+  id: "jp-fuufu-bessei",
+  theme: { de: "Familie & Recht (Japan)", ja: "家族と法（日本）" },
+  title: { de: "Japan: Wahlfreiheit beim Ehe-Namen (夫婦別姓)", ja: "日本の選択的夫婦別姓への賛否" },
+  zustand: {
+    de: "In Japan ist der gemeinsame Familienname nach der Eheschließung der Regelfall. Kritiker sehen darin eine Einschränkung der individuellen Identität (Beruf, Publikationen, internationale Anschlüsse). Befürworter der bisherigen Praxis betonen Einheit der Familie, Klarheit für Kinder und Verwaltungsvereinfachung. Umstritten sind konkrete Designfragen: Wahlmodell, Nachname der Kinder, Übergangsregeln und Kosten.",
+    ja: "日本では婚姻後に同姓とする運用が一般的で、個人のアイデンティティやキャリアとの衝突が論点になる。一方で家族の一体感、子の姓の明確さ、行政実務の簡便さを重視する意見もある。選択制の設計（子の姓、移行措置、コスト）まで含めて議論が分かれる。"
+  },
+  issues: [
+    { de: "Soll der Ehename frei wählbar sein (Wahlmodell)?", ja: "婚姻後の姓は選択制にすべきか" },
+    { de: "Wie regelt man den Nachnamen der Kinder fair und praktikabel?", ja: "子の姓をどう決めるべきか（公平性・実務）" },
+    { de: "Welche Übergangs- und Verwaltungsregeln sind nötig?", ja: "移行措置・行政手続の設計" }
+  ],
+  views: {
+    pro: {
+      de: "Ein Wahlmodell stärkt Selbstbestimmung und Gleichberechtigung. Es reduziert berufliche Nachteile (Name als Marke) und passt besser zu internationaler Mobilität. Familien können selbst entscheiden, was zu ihnen passt – ohne staatliche Bevormundung.",
+      ja: "選択制は自己決定と平等を強め、改姓によるキャリア上の不利益を減らし、国際的整合性も高い。家族が自分たちに合う形を選べる点が利点。"
+    },
+    contra: {
+      de: "Ein gemeinsamer Familienname kann Zusammengehörigkeit symbolisieren und vereinfacht Alltag und Verwaltung. Bei einem Wahlmodell drohen neue Konflikte: Druck innerhalb der Familie, Streit um den Kindernamen oder unübersichtliche Regelungen in Schule/Behörden, wenn Standards fehlen.",
+      ja: "同姓は家族の一体感を示し、生活・行政実務を簡便にする。選択制は家族内の圧力や子の姓を巡る対立、制度の複雑化を招く恐れがある。"
+    },
+    compromise: {
+      de: "Ein klares Wahlmodell mit Leitplanken: freie Wahl beim Ehename, aber standardisierte Regeln für Kinder (z.B. einheitliche Familienentscheidung bei der Geburt) und einfache Übergangsprozesse. Zusätzlich: Schutz vor innerfamiliärem Druck (Beratung) und digitale Verwaltungsumstellung mit realistischer Frist.",
+      ja: "自由選択を認めつつ、子の姓は出生時に家族として明確に決める等のルールを整備し、移行を段階化する。相談体制で圧力を減らし、行政は期限を区切ってデジタル対応する。"
+    }
+  },
+  redemittel: [
+    "Meines Erachtens geht es hier um den Ausgleich zwischen individueller Freiheit und sozialer Praktikabilität.",
+    "Ein wichtiger Punkt ist die Frage der Kinder – ohne klare Regelung bleibt das Konzept unvollständig.",
+    "Man sollte zwischen Symbolpolitik und administrativer Umsetzbarkeit unterscheiden.",
+    "Ein Wahlmodell kann funktionieren, wenn die Spielregeln transparent und einfach sind."
+  ],
+  vocab: [
+    { de: "die Selbstbestimmung", ja: "自己決定", tip: "論点の軸に使える万能語。" },
+    { de: "die Gleichberechtigung", ja: "男女平等", tip: "Familie/Arbeitsmarkt どちらでも頻出。" },
+    { de: "die Übergangsregelung", ja: "移行措置", tip: "制度変更の議論で強い。" },
+    { de: "der Verwaltungsaufwand", ja: "行政コスト/事務負担", tip: "Kosten だけでなく Aufwand も言えると便利。" }
+  ],
+  links: [
+    { label: "Wikipedia: Koseki / Familiennamensystem (Überblick)", url: "https://de.wikipedia.org/wiki/Koseki" }
+  ]
+},
+
+{
+  id: "weihnachtsmarkt-kosten-sicherheit",
+  theme: { de: "Stadt & Sicherheit", ja: "都市と安全" },
+  title: { de: "Weihnachtsmärkte: steigende Sicherheitskosten und Budgets", ja: "クリスマスマーケットと予算増大（安全対策）" },
+  zustand: {
+    de: "Viele Städte erhöhen die Sicherheitsmaßnahmen auf Weihnachtsmärkten (z.B. Zufahrtssperren, Poller, zusätzliche Sicherheitskräfte). Das steigert die Budgets deutlich und führt zu Zielkonflikten: Sicherheit vs. Kosten, Offenheit vs. Kontrolle, Tradition vs. neue Risiken. Gerade kleinere Kommunen stoßen an finanzielle Grenzen, wollen aber die Attraktivität der Innenstadt erhalten.",
+    ja: "クリスマスマーケットでは侵入防止のバリケードや警備強化などが進み、自治体のコストが増大している。安全・費用・開放性・伝統のバランスが課題で、とくに小規模自治体は財政負担の限界が見えやすい。"
+  },
+  issues: [
+    { de: "Wer soll die Mehrkosten tragen: Stadt, Veranstalter, Besucher?", ja: "追加費用は誰が負担すべきか（自治体/主催/来場者）" },
+    { de: "Wie viel Sicherheit ist realistisch – und ab wann sinkt die Lebensqualität?", ja: "安全強化の限度と生活の質" },
+    { de: "Wie schützt man offene Stadträume ohne ‘Festungsgefühl’?", ja: "開放的な都市空間を守りつつ要塞化を避けるには" }
+  ],
+  views: {
+    pro: {
+      de: "Erhöhte Sicherheitsbudgets sind angesichts neuer Bedrohungslagen gerechtfertigt. Prävention kann Menschenleben schützen und das Vertrauen der Bevölkerung stärken. Ein sicherer Markt stabilisiert zudem lokale Wirtschaft und Innenstädte.",
+      ja: "新たなリスクに備える安全投資は正当化されうる。予防は人命を守り、安心感を高め、地域経済の維持にもつながる。"
+    },
+    contra: {
+      de: "Sicherheitskosten können ausufern und andere kommunale Aufgaben verdrängen. Zu starke Kontrolle verändert die Atmosphäre und kann Besucher abschrecken. Außerdem ist ‘absolute Sicherheit’ nicht erreichbar – Kosten und Nutzen müssen verhältnismäßig bleiben.",
+      ja: "安全対策費が膨らむと他の行政サービスを圧迫する。過度な警備は雰囲気を損ない来場者減につながる可能性もある。絶対安全は不可能なので費用対効果と比例性が重要。"
+    },
+    compromise: {
+      de: "Risikobasiertes Konzept: Priorität für konkrete Schwachstellen (Zufahrten), modulare Maßnahmen je nach Lage, und Kooperation zwischen Stadt, Polizei und Veranstaltern. Finanzierung über Mischmodell (kommunaler Anteil + zweckgebundene Beiträge + ggf. Landesförderung) – transparent kommuniziert, um Akzeptanz zu sichern.",
+      ja: "リスクに応じた重点配分（侵入経路など）と、状況に応じて強弱をつけるモジュール型対策にする。費用は自治体・主催・補助金等のミックスで透明化し、受容性を確保する。"
+    }
+  },
+  redemittel: [
+    "Hier prallen Sicherheitsbedürfnis und finanzielle Tragfähigkeit direkt aufeinander.",
+    "Aus meiner Sicht ist ein risikobasierter Ansatz sinnvoller als pauschale Verschärfungen.",
+    "Man darf nicht den Eindruck einer ‘Festung’ erzeugen, sonst leidet die Akzeptanz.",
+    "Entscheidend ist die Verhältnismäßigkeit: Was bringt messbar mehr Sicherheit – und zu welchem Preis?"
+  ],
+  vocab: [
+    { de: "die Sicherheitsmaßnahmen", ja: "安全対策", tip: "万能。Maßnahmen = ‘施策’。" },
+    { de: "die Zufahrtssperre", ja: "車両侵入防止柵", tip: "Zufahrt + Sperre で意味が作りやすい。" },
+    { de: "die Akzeptanz", ja: "受容/支持", tip: "雰囲気・負担・規制の議論で強い。" },
+    { de: "die Verhältnismäßigkeit", ja: "比例性/釣り合い", tip: "独検1級の“言えると一段上”。" }
+  ],
+  links: [
+    { label: "Bericht zu Sicherheitskosten bei Weihnachtsmärkten (Beispiele nach Stadt)", url: "https://www.welt.de/article6919459ec7cd0ff6c620317b" }
+  ]
+},
 ];
